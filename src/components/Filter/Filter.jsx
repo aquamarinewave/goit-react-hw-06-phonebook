@@ -24,29 +24,3 @@ export const Filter = () => {
         </LabelFilter>
     )
 }
-
-
-
-
-// const filterId = nanoid();
-
-// const Filter = ({ value, onChange }) => {
-    
-//     return (
-//           <LabelFilter htmlFor={filterId}>
-//                 Fined contscts by name
-//                 <InputFilter
-//                     id={filterId}
-//                     type="text"
-//                     value={value}
-//                     onChange={onChange}
-//                 />
-//         </LabelFilter>
-// )
-// }
-// export default Filter;
-
-// Filter.propTypes = {
-//     value: PropTypes.string.isRequired,
-//     onChange: PropTypes.func.isRequired,
-// }
