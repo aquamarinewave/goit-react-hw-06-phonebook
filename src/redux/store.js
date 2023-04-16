@@ -42,7 +42,4 @@ export const store = configureStore({
 
 export const persistor = persistStore(store);
 
-// Створи дії збереження та видалення контакту, а також оновлення фільтра
-// Зв'яжи React-компоненти з Redux-логікою за допомогою хуків бібліотеки react-redux.
-
 
